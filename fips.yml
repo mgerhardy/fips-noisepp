@@ -1,0 +1,11 @@
+#
+# fips-noisepp
+#
+---
+exports:
+    header-dirs:
+        - noisepp/noisepp/core
+        - noisepp/noisepp/util
+        - noisepp/noisepp/threadpp
+    modules :
+        noisepp: .

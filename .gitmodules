@@ -1,0 +1,3 @@
+[submodule "noisepp"]
+	path = noisepp
+	url = https://github.com/slowriot/noisepp.git
