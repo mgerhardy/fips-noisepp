@@ -1,5 +1,5 @@
 fips_begin_lib(noisepp)
-	include_directories(noisepp/noisepp/core noisepp/noisepp/util noisepp/noisepp/threadpp)
+	include_directories(noisepp/noisepp/core noisepp/noisepp/utils noisepp/noisepp/threadpp)
 	fips_dir(noisepp/noisepp/core)
 	fips_files(
 		NoiseAbsolute.h
@@ -39,7 +39,7 @@ fips_begin_lib(noisepp)
 		NoiseVectorTable.h
 		NoiseVoronoi.h
 	)
-	fips_dir(noisepp/noisepp/util)
+	fips_dir(noisepp/noisepp/utils)
 	fips_files(
 		NoiseBuilders.cpp
 		NoiseBuilders.h

@@ -5,7 +5,7 @@
 exports:
     header-dirs:
         - noisepp/noisepp/core
-        - noisepp/noisepp/util
+        - noisepp/noisepp/utils
         - noisepp/noisepp/threadpp
     modules :
         noisepp: .
